@@ -52,8 +52,9 @@ export const site = {
   description:
     "Portfolio of Mujahid Anwar, a full-stack and AI developer building web applications, AI-powered products, and intelligent systems.",
 
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://mujahidportfolio-mu.vercel.app/",
-
+  url:
+  process.env.NEXT_PUBLIC_SITE_URL?.trim() ||
+  "https://mujahid-portfolio.vercel.app",
   email: "mujahidanwar141@gmail.com",
 
   location: "Rawalpindi, Pakistan",
