@@ -266,7 +266,7 @@ export const projects: Project[] = [
     category: "AI E-commerce",
 
     year: "2026",
-    image:"/fezaria.png",
+    image:"/Fezaria.png",
     role: "AI & full-stack development",
 
     featured: true,
